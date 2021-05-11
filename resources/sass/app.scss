@@ -1,0 +1,215 @@
+html{
+    font-family:Century Gothic , sans-serif;
+}
+
+body{
+ background-color: #ececec;
+}
+
+body .divMenu{
+        background-color: #4d4d4d;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-left: -8px;
+        margin-right: -8px;
+        margin-top: -8px;
+        width: auto;
+        height: 80px;
+        display: flex;
+
+        .image {
+            width: 75px;
+            height: 75px;
+
+            .logo {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+
+        .menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            .register {
+                margin-top: -10px;
+                position: absolute;
+                top: 55px;
+                right: 10%;
+                display: block;
+                text-decoration: none;
+                color: white;
+                size: 50px;
+
+            }
+
+            .login {
+                margin-top: -10px;
+                position: absolute;
+                top: 55px;
+                right: 17%;
+                display: block;
+                text-decoration: none;
+                color: white;
+                size: 50px;
+            }
+        }
+
+
+    }
+
+body .divInfo{
+    background-color: #333333 ;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    width: auto;
+    height: 35px;
+    display: flex;
+
+    .lang{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        .es{
+            margin-top: -5px;
+            position: absolute;
+            top: 5px;
+            right: 4%;
+            width: 15px;
+            height: 15px;
+        }
+        .cat{
+            margin-top: -5px;
+            position: absolute;
+            top: 5px;
+            right: 3%;
+            width: 15px;
+            height: 15px;
+        }
+    }
+}
+
+body .divMenu2 {
+    background-color: #91B100;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    width: auto;
+    height: 45px;
+    display: flex;
+    text-align: center;
+
+    .menu2 {
+        list-style: inside;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        text-align: center;
+
+        li {
+            list-style: none;
+        }
+        .clubs {
+            margin-top: -10px;
+            position: absolute;
+            top: 112px;
+            display: block;
+            margin-left: 31%;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            size: 50px;
+        }
+
+        .who {
+            margin-top: -10px;
+            position: absolute;
+            top: 112px;
+            display: block;
+            margin-left: 39%;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            size: 50px;
+        }
+
+        .where {
+            margin-top: -10px;
+            position: absolute;
+            top: 112px;
+            display: block;
+            margin-left: 47%;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            size: 50px;
+        }
+
+        .contact {
+            margin-top: -10px;
+            position: absolute;
+            top: 112px;
+            display: block;
+            margin-left: 63%;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            size: 50px;
+        }
+
+    }
+
+}
+
+
+
+    body footer {
+        margin-top: 1200px;
+        width: auto;
+        padding: 40px 0;
+        background-color: #4d4d4d;
+        color: #fff;
+
+
+        .social {
+            text-align: center;
+            padding-bottom: 25px;
+        }
+
+        .social > a {
+            font-size: 24px;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            display: inline-block;
+            text-align: center;
+            border-radius: 50%;
+            border: 1px solid #ccc;
+            margin: 0 8px;
+            color: inherit;
+            opacity: 0.75;
+        }
+
+        .social > a:hover {
+            opacity: 0.9;
+        }
+
+        .copyright {
+            margin-top: 15px;
+            text-align: center;
+            font-size: 13px;
+            color: #aaa;
+            margin-bottom: 0;
+        }
+    }
+
+
+
+

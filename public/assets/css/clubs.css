@@ -1,0 +1,11 @@
+html {
+    background-color: red;
+}
+
+html body {
+
+}
+body h1 {
+    size: 50px;
+    color: white;
+}

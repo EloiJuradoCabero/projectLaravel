@@ -1,0 +1,11 @@
+html {
+background-color: red;
+}
+
+html body {
+background-color: red;
+}
+
+body .menu1{
+    background-color: red;
+}
