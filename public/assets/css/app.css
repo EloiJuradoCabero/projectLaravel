@@ -1,115 +1,73 @@
 html {
-  font-family: Century Gothic, sans-serif;
+  font-family: "Open Sans SemiBold", serif;
 }
 
-body {
-  background-color: #ececec;
+body .field {
+  background-color: white;
+  width: 100vw;
 }
-
-body .divMenu {
+body header .divMenu {
   background-color: #4d4d4d;
   padding-right: 20px;
   padding-left: 20px;
   margin-left: -8px;
   margin-right: -8px;
   margin-top: -8px;
-  width: auto;
-  height: 80px;
+  width: 100vw;
+  height: 90px;
   display: flex;
 }
-body .divMenu .image {
-  width: 75px;
-  height: 75px;
+body header .divMenu .image {
+  margin-top: 12px;
+  margin-left: 10%;
+  width: 200px;
+  height: 200px;
 }
-body .divMenu .image .logo {
+body header .divMenu .image .logo {
+  margin-top: 10px;
   width: 100%;
   height: auto;
 }
-body .divMenu .menu {
+body header .divMenu .menu {
   list-style: none;
   padding: 0;
-  margin: 0;
+  height: 90px;
+  top: 25px;
 }
-body .divMenu .menu .register {
-  margin-top: -10px;
+body header .divMenu .menu .login {
+  font-family: "Open Sans SemiBold", serif;
+  top: 25px;
   position: absolute;
-  top: 55px;
   right: 10%;
   display: block;
   text-decoration: none;
   color: white;
   size: 50px;
 }
-body .divMenu .menu .login {
-  margin-top: -10px;
-  position: absolute;
-  top: 55px;
-  right: 17%;
-  display: block;
-  text-decoration: none;
-  color: white;
-  size: 50px;
-}
-
-body .divInfo {
-  background-color: #333333;
-  padding-right: 20px;
-  padding-left: 20px;
-  margin-left: -8px;
-  margin-right: -8px;
-  margin-top: -8px;
-  width: auto;
-  height: 35px;
-  display: flex;
-}
-body .divInfo .lang {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-body .divInfo .lang .es {
-  margin-top: -5px;
-  position: absolute;
-  top: 5px;
-  right: 4%;
-  width: 15px;
-  height: 15px;
-}
-body .divInfo .lang .cat {
-  margin-top: -5px;
-  position: absolute;
-  top: 5px;
-  right: 3%;
-  width: 15px;
-  height: 15px;
-}
-
-body .divMenu2 {
+body header .divMenu2 {
   background-color: #91B100;
   padding-right: 20px;
   padding-left: 20px;
   margin-left: -8px;
   margin-right: -8px;
-  margin-top: -8px;
-  width: auto;
+  width: 100vw;
   height: 45px;
-  display: flex;
   text-align: center;
 }
-body .divMenu2 .menu2 {
+body header .divMenu2 .menu2 {
+  width: 100vw;
   list-style: inside;
   padding: 0;
-  margin: 0;
   display: inline-block;
   text-align: center;
 }
-body .divMenu2 .menu2 li {
+body header .divMenu2 .menu2 li {
   list-style: none;
 }
-body .divMenu2 .menu2 .clubs {
-  margin-top: -10px;
+body header .divMenu2 .menu2 li .clubs {
+  font-family: "Open Sans SemiBold", serif;
+  top: 90px;
   position: absolute;
-  top: 112px;
   display: block;
   margin-left: 31%;
   text-align: center;
@@ -117,21 +75,21 @@ body .divMenu2 .menu2 .clubs {
   color: white;
   size: 50px;
 }
-body .divMenu2 .menu2 .who {
-  margin-top: -10px;
+body header .divMenu2 .menu2 li .who {
+  font-family: "Open Sans SemiBold", serif;
   position: absolute;
-  top: 112px;
+  top: 90px;
   display: block;
-  margin-left: 39%;
+  margin-left: 40%;
   text-align: center;
   text-decoration: none;
   color: white;
   size: 50px;
 }
-body .divMenu2 .menu2 .where {
-  margin-top: -10px;
+body header .divMenu2 .menu2 li .where {
+  font-family: "Open Sans SemiBold", serif;
   position: absolute;
-  top: 112px;
+  top: 90px;
   display: block;
   margin-left: 47%;
   text-align: center;
@@ -139,10 +97,21 @@ body .divMenu2 .menu2 .where {
   color: white;
   size: 50px;
 }
-body .divMenu2 .menu2 .contact {
-  margin-top: -10px;
+body header .divMenu2 .menu2 li .idk {
+  font-family: "Open Sans SemiBold", serif;
   position: absolute;
-  top: 112px;
+  top: 90px;
+  display: block;
+  margin-left: 55%;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  size: 50px;
+}
+body header .divMenu2 .menu2 li .contact {
+  font-family: "Open Sans SemiBold", serif;
+  position: absolute;
+  top: 90px;
   display: block;
   margin-left: 63%;
   text-align: center;
@@ -150,9 +119,8 @@ body .divMenu2 .menu2 .contact {
   color: white;
   size: 50px;
 }
-
 body footer {
-  margin-top: 1200px;
+  margin-top: 400px;
   width: auto;
   padding: 40px 0;
   background-color: #4d4d4d;

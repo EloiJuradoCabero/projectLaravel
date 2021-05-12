@@ -20,5 +20,9 @@ Route::view('who','who')->name('who');
 Route::view('where','where')->name('where');
 Route::view('clubs','clubs')->name('clubs');
 Route::view('contact','contact')->name('contact');
+Route::view('luz','luz')->name('luz');
+Route::view('calendar','calendar')->name('calendar');
+Route::view('key','key')->name('key');
+
 
 

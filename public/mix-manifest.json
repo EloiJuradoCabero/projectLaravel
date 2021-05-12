@@ -1,4 +1,8 @@
 {
     "/js/app.js": "/js/app.js",
+    "/assets/css/loading.css": "/assets/css/loading.css",
+    "/assets/css/who.css": "/assets/css/who.css",
+    "/assets/css/home.css": "/assets/css/home.css",
+    "/assets/css/clubs.css": "/assets/css/clubs.css",
     "/assets/css/app.css": "/assets/css/app.css"
 }

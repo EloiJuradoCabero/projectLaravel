@@ -10,20 +10,15 @@
 </head>
 <body>
 <header>
-    <div class="divInfo">
-        <ul class="lang">
-        <input type="image" class="es" src="{{asset ('assets/img/es.png')}}" alt="">
-        <input type="image" class="cat" src="{{asset ('assets/img/cat.png')}}" alt="">
-        </ul>
-    </div>
     <div class="divMenu">
         <div class="image">
-            <img class="logo" src="{{asset ('assets/img/pilota.png')}}" alt="">
+            <a href="{{route ('home')}}">
+            <img class="logo" src="{{asset ('assets/img/reservaplay_verd.png')}}" alt="">
+            </a>
         </div>
         <ul class="menu">
             <li>
                 <a class="login" href="{{route ('login')}}">Accedir-hi</a>
-                <a class="register" href="{{route ('register')}}">Registrar-se</a>
             </li>
         </ul>
     </div>
@@ -33,13 +28,14 @@
                 <a class="clubs" href="{{route('clubs')}}">Mostrar Clubs</a>
                 <a class="who" href="{{route('who')}}">Qui som</a>
                 <a class="where" href="{{route ('where')}}">On Som</a>
+                <a class="idk" href="{{route ('where')}}">On Som</a>
                 <a class="contact" href="{{route ('contact')}}">Contactan's</a>
             </li>
         </ul>
     </div>
 </header>
 
-    <div class="content">
+    <div class="field">
         @yield('content')
     </div>
 

@@ -1,11 +1,78 @@
-html {
-    background-color: red;
+.content {
+  margin-left: 200px;
+  margin-top: 100px;
+  margin-right: 200px;
 }
-
-html body {
-
+.content h1 {
+  padding-top: 20px;
+  font-family: "Open Sans Light", serif;
+  text-align: center;
 }
-body h1 {
-    size: 50px;
-    color: white;
+.content hr {
+  margin-top: 30px;
+  width: 80px;
+  border: 2px #91B100 solid;
+}
+.content body {
+  padding: 20px;
+  font-family: sans-serif;
+  background: #f2f2f2;
+}
+.content img {
+  width: 100%;
+  height: auto;
+}
+.content .taula-fotos {
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+}
+.content .taula-fotos .capa {
+  position: relative;
+}
+.content .taula-fotos .title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+  background: rgba(90, 0, 10, 0.4);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content .taula-fotos .img {
+  line-height: 0;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.content .taula-fotos .img img {
+  border-radius: 20px;
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+}
+.content .taula-fotos .capa:hover .title {
+  border-radius: 20px;
+  opacity: 1;
+}
+.content .taula-fotos .capa:hover .img img {
+  border-radius: 20px;
+  filter: blur(2px);
+}
+@media (hover: none) {
+  .content .taula-fotos .title {
+    opacity: 1;
+  }
+  .content .taula-fotos .img img {
+    filter: blur(2px);
+  }
 }

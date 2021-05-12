@@ -1,0 +1,57 @@
+.content{
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-right: 200px;
+
+    .title{
+        padding-top: 20px;
+        font-family: "Open Sans Light", serif;
+        text-align: center;
+    }
+    .linia{
+        margin-top: 30px;
+        width: 80px;
+        border: 2px #91B100 solid ;
+    }
+
+    .text {
+        font-family: "Open Sans Light", serif;
+        margin-top: 30px;
+        width: 800px ;
+        margin-left: 350px;
+        margin-right: 350px;
+
+        .exp{
+            text-align: center;
+        }
+
+        img {
+            border-radius: 30px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            margin-top: 80px;
+        }
+
+        .btn-dark{
+            margin-left: 350px;
+            margin-right: 350px;
+            margin-top: 100px;
+            width: 125px;
+            height: 40px;
+            font-family: "Open Sans Light", serif;
+            color: #91B100;
+            font-size: 18px;
+        }
+
+        .btn-dark:hover{
+            color: white;
+        }
+    }
+}
+
+
+
+
+
